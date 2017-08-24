@@ -1,0 +1,112 @@
+@import '../../../styles/settings/_settings.core';
+
+@import '../../../styles/components/_components.spacing';
+
+@import '../../../styles/components/_components.typography';
+
+.display-4 {
+    @include display-4;
+}
+
+.text-gray {
+    color: $grey;
+}
+
+.caption {
+    font-family: Arial;
+    font-weight: 300;
+    font-size: .8rem;
+    line-height: 1.5;
+}
+
+.col-4 {
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+}
+
+.flex-row {
+    flex-direction: row !important;
+}
+.d-flex {
+    display: flex !important;
+}
+
+.no-hyperlink, .no-hyperlink:focus, .no-hyperlink:hover {
+    color: #2f2f2f;
+    text-decoration: none;
+}
+
+.car-image.wide {
+    width: 100%;
+    padding-bottom: 56.25%;
+}
+.car-image {
+    position: relative;
+    display: table;
+}
+
+.car-image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    background-color: #fff;
+}
+img {
+    vertical-align: middle;
+}
+img {
+    border-style: none;
+}
+
+
+.col {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 720px;
+    max-width: 100%;
+}
+
+.center {
+    align-content: center;
+    align-items: center;
+}
+
+.white {
+    background-color: #fff;
+    
+}
+.car-board {
+    border: 1px solid #e5e5e5;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    width:99.99999%;
+}
+
+.text-secondary {
+    color: $color-secondary;
+}

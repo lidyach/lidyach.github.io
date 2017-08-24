@@ -1,0 +1,92 @@
+{
+  "extends": ["tslint:latest", "tslint-react"],
+  "rulesDirectory": [
+    "./node_modules/tslint-react/rules",
+    "./node_modules/tslint-eslint-rules/dist/rules"
+  ],
+  "rules": {
+    "class-name": true,
+    "comment-format": [true, "check-space"],
+    "interface-name": [true, "never-prefix"],
+    "max-line-length": [false, 100],
+    "member-access": false,
+    "no-arg": true,
+    "no-conditional-assignment": true,
+    "no-debugger": true,
+    "no-default-export": true,
+    "no-duplicate-super": true,
+    "no-duplicate-variable": true,
+    "no-empty-interface": false,
+    "no-eval": true,
+    "no-inferrable-types": [false],
+    "no-internal-module": true,
+    "no-invalid-this": true,
+    "no-string-literal": true,
+    "no-trailing-whitespace": true,
+    "no-unused-expression": true,
+    "no-unused-variable": true,
+    "no-var-keyword": true,
+    "no-var-requires": false,
+    "object-curly-spacing": [true, "always"],
+    "object-literal-sort-keys": false,
+    "one-line": [
+      true,
+      "check-catch",
+      "check-open-brace",
+      "check-whitespace"
+    ],
+    "only-arrow-functions": [
+      true,
+      "allow-declarations",
+      "allow-named-functions"
+    ],
+    "prefer-conditional-expression": false,
+    "prefer-const": false,
+    "quotemark": [
+      true,
+      "single",
+      "avoid-escape"
+    ],
+    "radix": false,
+    "semicolon": [true, "always"],
+    "ter-indent": [true, 4, { "SwitchCase": 1 }],
+    "trailing-comma": [
+      true,
+      {
+        "multiline": "never",
+        "singleline": "never"
+      }
+    ],
+    "typedef-whitespace": [
+      true,
+      {
+        "call-signature": "nospace",
+        "index-signature": "nospace",
+        "parameter": "nospace",
+        "property-declaration": "nospace",
+        "variable-declaration": "nospace"
+      }
+    ],
+    "variable-name": [
+      false,
+      "ban-keywords",
+      "check-format",
+      "allow-leading-underscore",
+      "allow-pascal-case"
+    ],
+    "whitespace": [
+      true,
+      "check-branch",
+      "check-decl",
+      "check-operator",
+      "check-separator",
+      "check-type"
+    ],
+
+    "jsx-no-lambda": true,
+    "jsx-no-multiline-js": true,
+    "jsx-no-string-ref": true,
+    "jsx-self-close": true,
+    "jsx-wrap-multiline": true
+  }
+}

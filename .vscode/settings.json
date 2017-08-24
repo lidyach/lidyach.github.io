@@ -1,0 +1,9 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "eslint.enable": false,
+    "editor.tabSize": 4,
+
+    "stylelint.enable": true,
+    "css.validate": false,
+    "scss.validate": false
+}

@@ -1,0 +1,26 @@
+@import
+    '../../../styles/components/components.typography',
+    '../../../styles/components/components.spacing',
+    '../../../styles/settings/settings.color',
+    '../../../styles/settings/settings.core';
+
+.Input-Group {
+    line-height: $line-height;
+}
+
+.Number-Input-Group-Icon {
+    @extend .caption;
+    color: $grey-light;
+    bottom: 3px;
+    position: relative;
+}
+
+.Number-Input-Group-Label {
+    @include display-4;
+    color: $color-secondary;
+}
+
+.Basic-Input-Group-Label {
+    @include display-4;
+    color: $grey-dark;
+}

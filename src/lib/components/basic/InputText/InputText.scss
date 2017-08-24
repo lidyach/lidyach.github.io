@@ -1,0 +1,9 @@
+@import
+    '../../../styles/settings/settings.color';
+
+.InputText {
+    height: 2rem;
+    width: 35rem;
+    border: solid 1px $grey-light;
+    border-radius: 5px;
+}

@@ -1,0 +1,22 @@
+@import '../settings/_settings.color';
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color:  $color-secondary;
+}
+
+a:hover {
+    color:  $color-secondary-darker;
+}
+
+a, a:focus, a:hover {
+    text-decoration: none;
+}
+
+a {
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}

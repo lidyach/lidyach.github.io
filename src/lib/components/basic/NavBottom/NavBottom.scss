@@ -1,0 +1,14 @@
+@import '../../../styles/components/_components.spacing';
+@import '../../../styles/components/_components.typography';
+@import '../../../styles/components/_components.color';
+@import '../../../styles/settings/_settings.core';
+@import '../../../styles/settings/_settings.color';
+
+.NavBottom {
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 4rem;
+    width: 100%;
+}

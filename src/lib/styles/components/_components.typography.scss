@@ -1,0 +1,42 @@
+@import '../settings/_settings.color';
+@import '../settings/_settings.core';
+
+.display-1 {
+    font-family: $text-font-family;
+    font-size: $display1-size;
+    font-weight: bold;
+}
+
+@mixin display-2 {
+    font-family: $text-font-family;
+    font-size: $display2-size;
+    font-weight: bold;
+}
+
+@mixin display-3 {
+    font-family: $text-font-family;
+    font-size: $display3-size;
+    font-weight: bold;
+}
+
+@mixin display-4 {
+    font-family: $text-font-family;
+    font-size: $display4-size;
+    font-weight: bold;
+}
+
+@mixin body-1 {
+    font-family: $text-font-family;
+    font-size: $body1-size;
+    font-weight: normal;
+}
+
+.caption {
+    font-family: $text-font-family;
+    font-size: $caption-size;
+    font-weight: normal;
+}
+
+.alert {
+    color:  $color-primary-dark;
+}

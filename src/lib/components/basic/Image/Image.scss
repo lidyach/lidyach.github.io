@@ -1,0 +1,22 @@
+.Image {
+    position: relative;
+    display: table;
+}
+
+.Image-Wide {
+    width: 100%;
+    padding-bottom: 9 / 16 * 100%;
+}
+
+.Image-Square {
+    width: 100%;
+    padding-bottom: 100%;
+}
+
+.Image-Pic {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    background-color: white;
+}

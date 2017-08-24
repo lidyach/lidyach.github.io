@@ -1,0 +1,132 @@
+@import '../../../styles/settings/_settings.core';
+@import '../../../styles/settings/_settings.color';
+@import '../../../styles/settings/_settings.zindex';
+
+@import '../../../styles/components/_components.spacing';
+@import '../../../styles/components/_components.color';
+@import '../../../styles/components/_components.typography';
+@import '../../../styles/components/_components.display';
+
+@import '../../../styles/utilities/_utilities.text';
+
+.Navbar-Img {
+    height: 40px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.hidden {
+    height: 0;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.Navbar-Button-Icon {
+
+    background-color: $grey-lighter;
+    border-radius: 100%;
+}
+
+.Navbar-Icon {
+    color: white;   
+}
+
+.Navbar-container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 720px;
+    max-width: 100%;
+    
+}
+
+.Navbar-sidebar {
+    height: 100%;
+    width: 18%;
+    background-color: #fff;
+    position: fixed ;
+    z-index: $z-index-1030;
+    overflow: auto;
+    float: left;
+}
+
+.no-hyperlink, .no-hyperlink:focus, .no-hyperlink:hover {
+    color: #2f2f2f;
+    text-decoration: none;
+    
+}
+
+.Navbar-bar-block .Navbar-dropdown-hover, .Navbar-bar-block .Navbvar-dropdown-click {
+    width: 100%;
+}
+
+.Navbar-bar-item {
+    padding: 8px 50px;
+    float: left;
+    width: auto;
+    border: none;
+    outline: none;
+    display: block;
+}
+
+.Navbar-teal {
+    color: white;
+    background-color: $color-primary;
+    height: 58px;
+    top: 0;
+    -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.16),0 3px 6px rgba(0,0,0,.23);
+    box-shadow: 0 3px 6px rgba(0,0,0,.16),0 3px 6px rgba(0,0,0,.23);
+    z-index: $z-index-1030;
+}
+
+.Navbar-list {
+    color: black;
+    background-color: white ;
+}
+
+.Navbar-list:hover {
+    color: $color-secondary;
+    background-color: white ;
+}
+
+
+.Navbar-button {
+    color: white;
+    background-color: $color-primary ;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    padding: 10px 10px;
+}
+
+.Navbar-button:hover {
+    color: white;
+    background-color: $color-primary;
+}
+
+.Navbar-card-2 {
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.Navbar-large {
+    @include display-4;
+}
+
+.Navbar-left {
+    float: left;
+    vertical-align: middle ;
+}
+
+.Navbar-backdrop {
+    height: 100%;
+    width: 100%;
+    right: 0;
+    top: 0;
+    position: fixed;
+    opacity: .5;
+    z-index: $z-index-1030;
+
+}

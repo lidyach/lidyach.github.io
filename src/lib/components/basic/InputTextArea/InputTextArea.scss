@@ -1,0 +1,15 @@
+@import
+    '../../../styles/components/components.typography',
+    '../../../styles/components/components.spacing',
+    '../../../styles/utilities/utilities.text',
+    '../../../styles/settings/settings.color';
+
+.Input-TextArea {
+    @extend .caption;
+    border-radius: 3px;
+    width: 100%;
+}
+
+.Max-Char {
+    color: black;
+}

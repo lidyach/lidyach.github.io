@@ -1,0 +1,42 @@
+@import '../../../../styles/components/_components.spacing';
+@import '../../../../styles/components/_components.typography';
+@import '../../../../styles/settings/_settings.core';
+@import '../../../../styles/settings/_settings.color';
+
+.Btn-Icon {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.25;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    padding: .5rem 1rem;
+    border-radius: 3px;
+    transition: all .2s ease-in-out;
+}
+
+.NavBottom-Button {
+    color: hsla(0,0%,100%,.5);
+    background-color: $color-primary-darker;
+    border-color: $color-primary-darker;
+
+    &:hover {
+        color: #892e2e;
+    }
+}
+
+.is-active {
+    color: #fff;
+}
+
+.is-disabled {
+    color : #892e2e;
+    background-color: $color-primary-darker;
+    border-color: $color-primary-darker; 
+}

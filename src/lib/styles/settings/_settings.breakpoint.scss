@@ -1,0 +1,10 @@
+@import
+    './settings.media';
+
+$breakpoints: (
+    xs: 0,
+    sm: $media-xs,
+    md: $media-sm,
+    lg: $media-md,
+    xl: $media-lg
+) !default;

@@ -1,0 +1,22 @@
+@import
+    '../../../styles/settings/settings.core',
+    '../../../styles/settings/settings.color',
+    '../../../styles/components/components.spacing',
+    '../../../styles/components/components.typography';
+
+.Input-Number {
+    color: $grey-dark;
+}
+
+.Input-Number span {
+    background-color: $grey-lighter;
+    border: 1px solid $grey-lighter;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.Input-Number input {
+    @include body-1;
+    border-radius: 2px;
+    border: 1px solid $grey-lighter;
+}

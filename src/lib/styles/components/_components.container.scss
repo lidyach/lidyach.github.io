@@ -1,0 +1,27 @@
+@import
+    '../settings/settings.breakpoint',
+    '../settings/settings.spacing';
+
+@import 
+    '../tools/tools.container';
+
+// Container
+//
+//
+
+$container-max-widths: (
+    sm: 540px,
+    md: 720px,
+    lg: 960px,
+    xl: 1140px
+) !default;
+
+.container {
+    @include make-container($spacing);
+    @include make-container-max-widths($container-max-widths, $breakpoints);
+
+    &-fluid {
+        @include make-container($spacing);
+        width: 100%;
+    }
+}

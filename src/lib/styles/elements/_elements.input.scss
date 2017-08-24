@@ -1,0 +1,11 @@
+@import '../settings/settings.core';
+
+::-webkit-input-placeholder {
+    @include body-1;
+    color: $grey-base;
+}
+
+::-moz-placeholder {
+    @include body-1;
+    color: $grey-base;
+}

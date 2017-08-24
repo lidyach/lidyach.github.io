@@ -1,0 +1,31 @@
+$spacing: 1rem !default;
+$spacing-x: $spacing !default;
+$spacing-y: $spacing !default;
+
+$spacings: (
+    0: (
+        x: 0,
+        y: 0
+    ),
+    1: (
+        x: ($spacing-x * .25),
+        y: ($spacing-y * .25)
+    ),
+    2: (
+        x: ($spacing-x * .5),
+        y: ($spacing-y * .5)
+    ),
+    3: (
+        x: $spacing-x,
+        y: $spacing-y
+    ),
+    4: (
+        x: ($spacing-x * 1.5),
+        y: ($spacing-y * 1.5)
+    ),
+    5: (
+        x: ($spacing-x * 3),
+        y: ($spacing-y * 3)
+    )
+) !default;
+

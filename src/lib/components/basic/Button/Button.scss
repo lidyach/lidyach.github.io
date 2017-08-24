@@ -1,0 +1,169 @@
+@import '../../../styles/components/_components.color';
+@import '../../../styles/components/_components.typography';
+@import '../../../styles/settings/_settings.color';
+
+@mixin btn-normal-primary {
+    background-color: $color-primary;
+    color: white;
+}
+
+@mixin btn-normal-outline {
+    background-color: white;
+    border-color: $color-primary;
+    color: $color-primary;
+}
+
+@mixin btn-hover {
+    background-color: $color-primary-darker;
+    color : white;
+}
+
+@mixin btn-hover-outline {
+    background-color: white;
+    color : $color-primary-darker;
+    border-color: $color-primary-darker;
+}
+
+@mixin btn-disable-primary {
+    background-color: $grey-light;
+    color: white;
+}
+
+@mixin btn-disable-default {
+    background-color: white;
+    color: $grey-light;
+}
+
+@mixin btn-facebook {
+    background-color: $facebook-color;
+}
+
+@mixin facebook-hover {
+    background-color: $facebook-hover;
+}
+
+@mixin facebook-outline {
+    border-color: $facebook-color;
+    background-color: white;
+    color: $facebook-color;
+}
+
+@mixin facebook-outline-hover {
+    border-color: $facebook-hover;
+    background-color: white;
+    color: $facebook-hover;
+}
+
+@mixin btn-google {
+    background-color: $google-color;
+}
+
+@mixin google-hover {
+    background-color: $google-hover;
+}
+
+@mixin google-outline {
+    border-color: $google-color;
+    background-color: white;
+    color: $google-color;
+}
+
+@mixin google-outline-hover {
+    border-color: $google-hover;
+    background-color: white;
+    color: $google-hover;
+}
+
+button:disabled {
+    @extend .disable;
+}
+
+
+.btn {
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+.block {
+    width: 100%;
+}
+
+.large {
+    height: 40px;
+    @include display-4;
+}
+
+.medium {
+    @include body-1;
+    font-weight: bold;
+    height: 36px;
+}
+
+.small{
+    @include body-1;
+    height: 34px;
+    font-weight: bold;
+}
+
+button[type="primary"] {
+    @include btn-normal-primary;
+}
+
+button[type="primary"]:hover {
+    @include btn-hover;
+}
+
+button[type="primary-outline"]{
+    @include btn-normal-outline;
+}
+
+button[type="primary-outline"]:hover {
+    @include btn-hover-outline;
+}
+
+button[type="facebook"] {
+    @include btn-facebook;
+    width: 277.063px;
+}
+
+button[type="facebook"]:hover {
+    @include facebook-hover;
+    width: 277.063px;
+}
+
+button[type="facebook-outline"]{
+    @include facebook-outline;
+    width: 277.063px;
+}
+
+button[type="facebook-outline"]:hover {
+    @include facebook-outline-hover;
+    width: 277.063px;
+}
+
+.disable {
+    @include btn-disable-primary;
+}
+
+button[type="google"] {
+    @include btn-google;
+    width: 277.063px;
+}
+
+button[type="google"]:hover {
+    @include google-hover;
+    width: 277.063px;
+}
+
+button[type="google-outline"] {
+    @include google-outline;
+    width: 277.063px;
+}
+
+button[type="google-outline"]:hover {
+    @include google-outline-hover;
+    width: 277.063px;
+}
